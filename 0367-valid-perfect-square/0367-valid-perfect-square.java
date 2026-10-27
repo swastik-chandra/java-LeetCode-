@@ -6,7 +6,7 @@ class Solution {
             int mid = start + (end - start) / 2;
             long square = (long) mid * mid;
             if (square == num) {
-                return true; 
+                return true; //agar mil jaye to true karo 
             } 
             else if (square < num) {
                 start = mid + 1;
@@ -15,6 +15,6 @@ class Solution {
                 end = mid - 1;
             }
         }
-        return false;
+        return false;// na mila 
     }
 }
